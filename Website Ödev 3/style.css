@@ -1,0 +1,92 @@
+.col-sm-6 {
+    flex: 1;
+    display: flex;
+    height: 1300px;
+}
+
+.header{
+    padding: 80px;
+    text-align: center;
+    background: rgb(130, 215, 227);
+    color: azure;
+    height: 200px;
+}
+.header h1{
+    font-size: 50px;
+}
+.header p{
+    font-size: 22px;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: rgb(187, 174, 174);
+    height: 29px;
+    padding: 1px;
+}
+.navbar a{
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: azure;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.navbar a:hover{
+    background: rgb(130, 215, 227); 
+    color: red;
+    transition: 0.5s all ease;
+}
+
+*{
+    box-sizing: border-box;
+    height: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10%;
+    
+}
+/* Create two unequal columns that sits next to each other */
+.side{
+    flex: 30%; /* Set the width of the sidebar */
+    background-color:bisque ;
+    padding: 20px;
+}
+.side h1{
+    font-size: 43px;
+    font-weight: 400;
+}
+.side p{
+    font-size: 17px;
+}
+.main{
+    flex: 70%;
+    background-color: bisque;
+    padding: 20px;
+}   
+.main h1{
+    font-size: 43px;
+    font-weight: 400;
+}
+.main p{
+    font-size: 17px; 
+}
+.main h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+
+.footer{
+    background-color: rgb(187, 174, 174);
+    padding: 7px;
+    text-align: center;
+    color: azure;
+}
+.footer h4{
+    font-size: 20px;
+    font-weight: 500;
+}
